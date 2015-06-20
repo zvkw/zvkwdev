@@ -1,13 +1,16 @@
 <?php
 
-	/**
+/**
+	Marker-Interface. Dient primÃ¤r dazu, um sicherstellen zu kÃ¶nnen, dass zum Zeitpunkt einer
+	ProgrammausfÃ¼hrung auch das zugehÃ¶rige Framework geladen wurde.	 
 	
-	 Marker-Interface. Dient primär dazu, um sicherstellen zu können, dass zum Zeitpunkt einer
-	 Programmausführung auch das zugehörige Framework geladen wurde.
-	 
-	*/
+	* Konvertierung des Files in UTF8.
+	* ErgÃ¤nzung Funktion get_version();
+	
+*/
 	
 	interface zvwkinterface_plugin_specs {
+		function get_version();
 	}
 	
 ?>
